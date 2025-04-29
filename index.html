@@ -3,7 +3,236 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inteelea</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #161b33">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/logo.png" alt="Inteelea Logo" class="logo-img" />
+        </a>
+
+        <!-- Button for small screen -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-bell-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-person-circle"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex">
+      <!-- Sidebar -->
+      <div class="sidebar d-flex flex-column">
+        <div class="sidebar-nav">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-3">
+              <a class="nav-link active" href="#">
+                <i class="bi bi-rocket-fill icon-bg"></i>
+                <span class="link-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a class="nav-link" href="#">
+                <i class="bi bi-bar-chart-line-fill icon-bg"></i>
+                <span class="link-text">Table</span>
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a class="nav-link" href="#">
+                <i class="bi bi-credit-card-fill icon-bg"></i>
+                <span class="link-text">Billing</span>
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a class="nav-link" href="#">
+                <i class="bi bi-wrench-adjustable-circle-fill icon-bg"></i>
+                <span class="link-text">Social Media</span>
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a class="nav-link" href="#">
+                <i class="bi bi-file-earmark-fill icon-bg"></i>
+                <span class="link-text">Form</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Section -->
+      <div class="main-section flex-grow-1 p-3">
+        <div class="hero-section mb-4">
+          <div class="row">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <!-- Performance Box -->
+              <div class="performance-box p-3"><img src="" alt="" /></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="socials-box p-3">Socials</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="membership-section p-3">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="mb-0">Membership</h4>
+            <span class="badge completed-badge">30 done this month</span>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-dark table-bordered">
+              <thead>
+                <tr>
+                  <th>#No</th>
+                  <th>ID Number</th>
+                  <th>Name</th>
+                  <th>Phone Number</th>
+                  <th>Email Address</th>
+                  <th>Date</th>
+                  <th>Subscription</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>#ydd725</td>
+                  <td>MD KARIM</td>
+                  <td>01781-234567</td>
+                  <td>mdkarim@gmail.com</td>
+                  <td>20 JUN, 2024</td>
+                  <td>Premium</td>
+                  <td>
+                    <button class="btn btn-sm btn-danger me-1">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                    <button class="btn btn-sm btn-success">
+                      <i class="bi bi-envelope"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
